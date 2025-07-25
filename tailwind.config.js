@@ -1,19 +1,12 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        "consulting-blue": "#007BFF",
-      },
-      backgroundImage: {
-        "consulting-gradient": "linear-gradient(to right, #007BFF, #00BFFF)",
-        "consulting-hero-gradient": "linear-gradient(to bottom right, #007BFF, #004080)",
-      },
-      boxShadow: {
-        elegant: "0 10px 20px rgba(0,0,0,0.15)",
-        soft: "0 5px 10px rgba(0,0,0,0.1)",
+        'consulting-blue': '#003f5c',
+        'consulting-gradient': 'linear-gradient(90deg, #003f5c 0%, #2f4b7c 100%)'
       },
     },
   },
   plugins: [],
-};
+}
